@@ -27,20 +27,20 @@ const Portfolio = () => {
     const [count, setCount] = useState(4)
     
 
-    useEffect(() => {
-        const fetchProjects = async () => {
-            try {
-                const response = await axios.get(api)
-                setProjects(response.data.data.reverse())
-            } catch (error) {
-                console.log(error);
-            }finally {
-                setLoading(false)
-            }
-        }
+    // useEffect(() => {
+    //     const fetchProjects = async () => {
+    //         try {
+    //             const response = await axios.get(api)
+    //             setProjects(response.data.data.reverse())
+    //         } catch (error) {
+    //             console.log(error);
+    //         }finally {
+    //             setLoading(false)
+    //         }
+    //     }
 
-        fetchProjects()
-    },[])
+    //     fetchProjects()
+    // },[])
 
     // console.log(projects);
 

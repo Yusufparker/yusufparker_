@@ -33,7 +33,7 @@ const Footer = () => {
                     <a href="https://www.linkedin.com/in/muhammad-yusuf-957651240/" target="_blank"><i className="bi bi-linkedin"></i></a>
                     <a href="https://github.com/Yusufparker" target="_blank"><i className="bi bi-github"></i></a>
                     <a href="https://www.instagram.com/yusuf_parker/" target="_blank"><i className="bi bi-instagram"></i></a>
-                    <a href="https://www.tiktok.com/@yusufparker16" target="_blank"><i className="bi bi-tiktok"></i></a>
+                    <a href="https://www.tiktok.com/@yusufparker_" target="_blank"><i className="bi bi-tiktok"></i></a>
                 </div>
                 <p className="mt-4 fs-14">© {new Date().getFullYear()} Muhammad Yusuf. All right reserved.</p>
             </div>            
